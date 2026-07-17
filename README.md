@@ -11,11 +11,9 @@ Aplicación móvil desarrollada en Flutter que combina autenticación de usuario
 5. [Plataformas probadas](#5-plataformas-probadas)
 6. [Características del proyecto](#6-características-del-proyecto)
 7. [Estructura del proyecto](#7-estructura-del-proyecto)
-8. [Diagramas del sistema](#8-diagramas-del-sistema)
-9. [Arquitectura y funcionamiento](#9-arquitectura-y-funcionamiento)
-10. [Capturas del proyecto](#10-capturas-del-proyecto)
-11. [Conclusión](#11-conclusión)
-12. [Créditos](#12-créditos)
+8. [Arquitectura y funcionamiento](#8-arquitectura-y-funcionamiento)
+9. [Conclusión](#11-conclusión)
+10. [Créditos](#12-créditos)
 
 ---
 
@@ -187,11 +185,8 @@ Estas dependencias se descargan automáticamente al ejecutar `flutter pub get`, 
 | Plataforma | Estado |
 |---|---|
 | Android (emulador y/o dispositivo físico) | Probado |
-| Windows (aplicación de escritorio nativa) | Agregar plataforma probada |
 | Web (navegador) | No compatible: la aplicación utiliza SQLite, archivos locales (`dart:io`) y notificaciones del sistema, funcionalidades no soportadas en tiempo de ejecución por Flutter Web |
-| iOS | Agregar plataforma probada |
-| macOS | Agregar plataforma probada |
-| Linux | Agregar plataforma probada |
+
 
 ---
 
